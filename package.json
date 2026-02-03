@@ -33,8 +33,13 @@
 					"scope": "application",
 					"type": "string",
 					"default": "",
-					"markdownDescription": "The file path to your installation of [Atlus Script Tools](https://amicitia.github.io/post/atlusscriptcompiler)",
-					"format": "uri"
+					"markdownDescription": "The file path to your installation of [Atlus Script Tools](https://amicitia.github.io/post/atlusscriptcompiler)"
+				},
+				"atlusScriptHelper.environmentVariables": {
+					"scope": "application",
+					"type": "string",
+					"default": "",
+					"markdownDescription": "Environment variables to set when running the script tools. Format as `KEY=VALUE KEY2=VALUE2`"
 				},
 				"atlusScriptHelper.defaultGame": {
 					"scope": "resource",
