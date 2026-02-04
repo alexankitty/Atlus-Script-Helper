@@ -10,7 +10,7 @@ A WIP VS Code extension that adds support for the flowscript and messagescript l
 - Works with any game by changing the option to the left of the vscode status bar.
 	- This currently only works if you have a workspace open (File -> Open Folder) if you have just a file open pressing it won't actually change the game that it's using.
 	- You can also change the default game in the extension's configuration (search for Atlus in vscode settings and you'll find it).
-- Syntax highlighting. This is essentially the same as what you'd get if you set the language to C or C++ however, some features like autoclosing brackets don't work currently
+- Syntax highlighting. This is essentially the same as what you'd get if you set the language to C or C++.
 - Validate imports, this is currently the only kind of actual error detection. 
 
 ## Planned Features
