@@ -27,7 +27,7 @@
 			"include": "#switch_statement"
 		},
 		{
-			"match": "\\b(bool|double|float|int|long|short|void)\\b",
+			"match": "\\b(bool|double|float|int|long|short|void|enum|local_ai|global_ai|bit|static)\\b",
 			"name": "storage.type.flowscript"
 		},
 		{

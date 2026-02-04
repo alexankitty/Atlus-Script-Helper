@@ -5,8 +5,8 @@ import { URI, Utils } from 'vscode-uri';
 
 export function validateImport(textDocument: TextDocument, match: RegExpExecArray, hasDiagnosticRelatedInformationCapability: boolean) : Diagnostic | null{
 	// Check if the file is valid (.bf or .msg)
-	let extension: String = match[1].substr(match[1].lastIndexOf("."));
-	if(!(extension == ".bf" || extension == ".msg")) {
+	let extension: String = match[1].substr(match[1].lastIndexOf(".")).toLowerCase();
+	if(!(extension == ".bf" || extension == ".msg" || extension == ".flow")) {
 		let diagnostic: Diagnostic = {
 			severity: DiagnosticSeverity.Error,
 			range: {
