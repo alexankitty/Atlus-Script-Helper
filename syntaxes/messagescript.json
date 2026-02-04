@@ -16,6 +16,28 @@
 				}
 			}
 		},
+				{
+			"match": "\\[(f)\\s+(.+)\\]",
+			"captures": {
+				"1": {
+					"name": "keyword.control.function.messagescript"
+				},
+				"2": {
+					"name": "entity.name.section.messagescript"
+				}
+			}
+		},
+				{
+			"match": "\\[(sel)\\s+(.+)\\]",
+			"captures": {
+				"1": {
+					"name": "keyword.control.selection.messagescript"
+				},
+				"2": {
+					"name": "entity.name.section.messagescript"
+				}
+			}
+		},
 		{
 			"match": "\\[n\\]",
 			"name": "constant.other.newline.messagesript"

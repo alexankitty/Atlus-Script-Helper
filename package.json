@@ -65,13 +65,15 @@
 				"id": "Flowscript",
 				"extensions": [
 					".flow"
-				]
+				],
+				"configuration": "./language-config/flowscript.json"
 			},
 			{
 				"id": "Messagescript",
 				"extensions": [
 					".msg"
-				]
+				],
+				"configuration": "./language-config/messagescript.json"
 			}
 		],
 		"grammars": [
